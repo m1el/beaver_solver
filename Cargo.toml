@@ -1,0 +1,10 @@
+[package]
+name = "beaver-solve"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+core_simd = { git = "https://github.com/rust-lang/stdsimd" }
+winapi = { version = "0.3", features = ["memoryapi"] }
